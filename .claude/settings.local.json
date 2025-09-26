@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub:*)",
+      "Bash(flutter packages pub run:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter:*)",
+      "Bash(find:*)",
+      "Bash(dart run build_runner:*)",
+      "Bash(for:*)",
+      "Bash(do sed -i \"s/''\\\\₱/''₱/g\" \"$file\")",
+      "Bash(done)",
+      "Read(//d/PROJECTS/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
